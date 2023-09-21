@@ -1,0 +1,111 @@
+body {
+    background-color: #FFBE56;
+    font-family: 'Marhey', cursive;
+    
+}
+
+header{
+     background-color:rgb(242, 90, 138);
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+    padding: 10px;
+    margin:  10px;
+
+}
+body h2 {
+
+font-size: 1em;
+font-weight: bold;
+font-family: 'Marhey', cursive;
+}
+
+ h1 {
+font-size: 32px;
+font-weight: bolder;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a{
+ text-decoration:none;
+ text-transform: uppercase;
+ font-size: 26px;
+}
+
+nav a:hover{
+text-decoration: underline;
+font-size: 28px ;
+transition: 0.5s;
+
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.menu{
+    position: absolute;
+    top: 90px;
+    right: 150px;
+}
+
+h1  {
+	 text-align: center;
+	 color: black;
+	
+}
+
+h3 {
+	color:black;
+}
+
+b {
+	color:rgb(242, 90, 138) ;
+	font-size: 20px;
+}
+
+
+.aspectos__imagem{
+
+	width: 200px;
+	height: inherit;
+	opacity: 70%;
+}
+.aspectos__imagem:hover {
+	opacity: 100%;
+	transform: scale(1.1);
+
+} 
+.aspectos__imagem:active{
+	transform: scale(0.8);
+}
+
+.aspectos li {
+	list-style: none;
+	border: black 6px;
+	border-style: solid;
+}
+
+footer {
+	background-image: url(https://static.vecteezy.com/system/resources/previews/012/375/429/non_2x/watercolor-spring-flowers-pattern-png.png);
+	height: 200px;
+	background-size: 20%;
+	
+}
+
+.textorodape{
+
+	font-size: 28px;
+	text-shadow: 4px 4px 4px white;
+	text-align: center;
+
+}
+
+.telefone::before{
+	content: "U+0260F";
+
+}
