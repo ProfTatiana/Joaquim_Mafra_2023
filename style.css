@@ -1,11 +1,11 @@
 body {
-    background-color: #56ebff;
+    background-color: hsla(187, 100%, 67%, 0.199);
     font-family: 'Marhey', cursive;
     
 }
 
 header{
-     background-color:rgb(131, 139, 94);
+     background-color:#ddbe0f3b;
 }
 
 h1,h2,h3,h4,h5,h6,p,ul{
@@ -64,7 +64,7 @@ h3 {
 }
 
 b {
-	color:rgba(242, 90, 138, 0.384) ;
+	color:#f25a8a62 ;
 	font-size: 20px;
 }
 
